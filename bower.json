@@ -1,0 +1,24 @@
+{
+  "name": "angularjs",
+  "description": "primer proyecto",
+  "main": "",
+  "keywords": [
+    "curso",
+    "angular"
+  ],
+  "authors": [
+    "Mucio Nava"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.4"
+  }
+}

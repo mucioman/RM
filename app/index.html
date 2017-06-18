@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app="Miprimerapp">
+  <head>
+    <meta charset="utf-8">
+    <title>Testing the tools</title>
+    <!-- build:css styles/main.min.css -->
+      <link rel="stylesheet" href="styles/estilos.css" />
+    <!-- endbuild -->
+  </head>
+  <body ng-controller="controladorBasico">
+  <div ng-repeat="Morty in Rick">
+  	<img src="images/{{Morty.Foto}}"/>
+  	<h2>Hola mi nombre es: {{Morty.Nombre}}</h2>
+  	<h3>Hola tengo {{Morty.Edad}}</h3>
+  </div>
+  <script type="text/javascript" src="scripts/angular.min.js"></script>
+  <script type="text/javascript" src="scripts/miapp.js"></script>
+  </body>
+</html>
